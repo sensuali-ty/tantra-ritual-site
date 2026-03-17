@@ -200,7 +200,7 @@ nav a:hover {
 }
 
 .about p {
-  font-size: 24px;
+  font-size: 18px;
   max-width: 850px;
   margin: auto;
   margin-bottom: 25px;
@@ -280,6 +280,7 @@ nav a:hover {
   letter-spacing: 1px;
   border-radius: 6px;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .btn-read:hover {

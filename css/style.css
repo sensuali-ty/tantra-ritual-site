@@ -684,3 +684,115 @@ footer a {
   cursor: pointer;
   font-size: 20px;
 }
+
+/* ===== TELEGRAM SECTION ===== */
+
+.telegram-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.telegram-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.48);
+  z-index: 1;
+}
+
+.telegram-content {
+  position: relative;
+  z-index: 2;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.telegram-section .gallery-title {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.1;
+  margin: 0 auto 38px;
+  max-width: 900px;
+}
+
+.telegram-text-box {
+  max-width: 860px;
+  margin: 0 auto 34px;
+  padding: 34px 38px;
+  background: rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+}
+
+.telegram-text-box p {
+  margin: 0 0 22px;
+  font-size: 22px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.telegram-text-box p:last-child {
+  margin-bottom: 0;
+}
+
+.telegram-accent {
+  font-size: 24px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.telegram-section .btn-read {
+  margin-top: 8px;
+  padding: 18px 42px;
+  background: #bf803c;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.telegram-section .btn-read:hover {
+  background: #a56d31;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+  .telegram-section {
+    padding: 84px 18px;
+  }
+
+  .telegram-section .gallery-title {
+    font-size: 34px;
+    margin-bottom: 26px;
+  }
+
+  .telegram-text-box {
+    padding: 24px 20px;
+  }
+
+  .telegram-text-box p {
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 18px;
+  }
+
+  .telegram-accent {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .telegram-section .btn-read {
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+}
